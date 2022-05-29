@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="54dp"
-        android:layout_marginBottom="105dp"
+        android:layout_marginBottom="8dp"
         android:text="Main Menu"
         android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/btnManage"
@@ -23,9 +23,9 @@
 
     <Button
         android:id="@+id/btnManage"
-        android:layout_width="196dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="365dp"
+        android:layout_width="192dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="462dp"
         android:text="Manage Collections"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

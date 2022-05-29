@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/setha/AndroidStudioProjects/iCollections/app/src/main/res/layout/activity_collections_management.xml" value="0.25" />
+        <entry key="..\:/Users/setha/AndroidStudioProjects/iCollections/app/src/main/res/layout/activity_create_category.xml" value="0.2359375" />
+        <entry key="..\:/Users/setha/AndroidStudioProjects/iCollections/app/src/main/res/layout/activity_created_collections.xml" value="0.25" />
         <entry key="..\:/Users/setha/AndroidStudioProjects/iCollections/app/src/main/res/layout/activity_login.xml" value="0.2359375" />
         <entry key="..\:/Users/setha/AndroidStudioProjects/iCollections/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/setha/AndroidStudioProjects/iCollections/app/src/main/res/layout/activity_main_menu.xml" value="0.2359375" />

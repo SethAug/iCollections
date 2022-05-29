@@ -14,21 +14,16 @@ private Button button;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    }
-//This method will be called when the button is clicked
-    public void btnClick(View view) {
-       Button btnLogin = findViewById(R.id.btnLogin);
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        //This code allows the user to access the login page.
+        button = findViewById(R.id.btnLogin);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openLoginPage();
+                Intent intent = new Intent(MainActivity.this,Login.class);
+                startActivity(intent);
             }
         });
-    }
-    public void openLoginPage(){
-        Intent intent = new Intent(this,Login.class);
-        startActivity(intent);
-    }
 
+    }
 
 }
